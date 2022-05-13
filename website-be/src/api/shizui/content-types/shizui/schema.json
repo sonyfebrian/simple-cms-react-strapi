@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shizuis",
+  "info": {
+    "singularName": "shizui",
+    "pluralName": "shizuis",
+    "displayName": "shizui"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "review": {
+      "type": "integer"
+    },
+    "review_user": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
